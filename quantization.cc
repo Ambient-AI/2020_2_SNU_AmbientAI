@@ -1,3 +1,7 @@
+/*
+  max, min: Representative dataset을 통해 얻은 float 값의 min max
+  quant_min, quant_max: -128, 127
+*/
 void GetAsymmetricQuantizationParams(
     float min, float max, const int quant_min, const int quant_max,
     QuantizationParametersT* quantization_params) {
